@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Blog</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        header p {
+            font-size: 1.2em;
+            margin-top: 5px;
+        }
+
+        nav {
+            background: #444;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        article {
+            margin-bottom: 40px;
+        }
+
+        article h2 {
+            margin-top: 0;
+        }
+
+        article time {
+            color: #777;
+        }
+
+        aside {
+            background: #f4f4f4;
+            padding: 15px;
+            margin-bottom: 20px;
+        }
+
+        footer {
+            background: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+
+        table, th, td {
+            border: 1px solid #333;
+            padding: 10px;
+            text-align: left;
+        }
+
+        img {
+            max-width: 100%;
+        }
+
+        video {
+            max-width: 100%;
+            height: auto;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>mehedi's Blog</h1>
+        <p>Thoughts, stories, and ideas from my life</p>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- Main Blog Section -->
+    <main>
+        <section>
+            <!-- First Blog Post -->
+            <article>
+                <h2>The Joy of Traveling</h2>
+                <time datetime="2024-09-08">September 8, 2024</time>
+                <p><strong>Author:</strong> mehedi alam</p>
+                <p>Traveling opens up new perspectives and exposes us to diverse cultures. From hiking in the Alps to soaking in the sun on the beaches of Bali, every trip offers something unique. In this post, I’ll share my top 3 favorite destinations.</p>
+                
+                <h3>Travel Stats</h3>
+                <table>
+                    <tr>
+                        <th>Country</th>
+                        <th>Year Visited</th>
+                        <th>Favorite Activity</th>
+                    </tr>
+                    <tr>
+                        <td>Italy</td>
+                        <td>2022</td>
+                        <td>Exploring the Colosseum</td>
+                    </tr>
+                    <tr>
+                        <td>Japan</td>
+                        <td>2023</td>
+                        <td>Visiting Kyoto Temples</td>
+                    </tr>
+                    <tr>
+                        <td>Australia</td>
+                        <td>2024</td>
+                        <td>Snorkeling at the Great Barrier Reef</td>
+                    </tr>
+                </table>
+
+                <h3>Gallery</h3>
+                <img src="https://via.placeholder.com/600x400" alt="Beautiful landscape of a travel destination">
+                <p>Check out this stunning view from my trip to Australia!</p>
+
+                <h3>Watch My Travel Vlog</h3>
+                <video controls>
+                    <source src="travel-vlog.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </article>
+
+            <!-- Second Blog Post -->
+            <article>
+                <h2>My Favorite Coding Resources</h2>
+                <time datetime="2024-09-01">September 1, 2024</time>
+                <p><strong>Author:</strong>mehedi alam</p>
+                <p>As a web developer, it's crucial to keep learning. Here are my top coding resources that have helped me improve over the years:</p>
+                <ul>
+                    <li><a href="https://www.freecodecamp.org" target="_blank">FreeCodeCamp</a> – An excellent platform for learning coding from scratch.</li>
+                    <li><a href="https://developer.mozilla.org" target="_blank">MDN Web Docs</a> – The best place to find in-depth technical documentation.</li>
+                    <li><a href="https://www.youtube.com" target="_blank">YouTube Channels</a> – Channels like Traversy Media provide practical tutorials for developers.</li>
+                </ul>
+            </article>
+        </section>
+
+        <!-- Sidebar (Aside) -->
+        <aside>
+            <h2>Blog Categories</h2>
+            <ul>
+                <li>Travel</li>
+                <li>Technology</li>
+                <li>Lifestyle</li>
+            </ul>
+
+            <h2>Recent Posts</h2>
+            <ul>
+                <li><a href="#joy-of-traveling">The Joy of Traveling</a></li>
+                <li><a href="#coding-resources">My Favorite Coding Resources</a></li>
+            </ul>
+
+            <h2>Subscribe to My Newsletter</h2>
+            <form action="#">
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email"><br><br>
+                <input type="submit" value="Subscribe">
+            </form>
+        </aside>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 mehedi's Blog | Follow me on 
+            <a href="https://twitter.com" target="_blank">Twitter</a> | 
+            <a href="https://instagram.com" target="_blank">Instagram</a> | 
+            <a href="mailto:mehedi@example.com">Contact Me</a>
+        </p>
+    </footer>
+
+</body>
+</html>
